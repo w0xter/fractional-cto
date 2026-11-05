@@ -1,0 +1,4 @@
+---
+const { href, variant = 'primary' } = Astro.props;
+---
+<a class:list={[variant === 'primary' ? 'button' : variant === 'editorial' ? 'editorial-link' : 'text-link']} href={href}><slot /> <span aria-hidden="true">→</span></a>

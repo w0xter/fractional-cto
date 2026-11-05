@@ -1,0 +1,12 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Button from '../../components/Button.astro';
+export async function getStaticPaths() {
+  return (await getCollection('decisions')).map(decision => ({ params: { slug: decision.id }, props: { decision } }));
+}
+const { decision } = Astro.props;
+const { Content } = await render(decision);
+const related = (await Promise.all(decision.data.projectIds.map((id: string) => getEntry('projects', id)))).filter(Boolean);
+---
+<BaseLayout title={`${decision.data.title} · Decisiones · Luis Pozo`} description={decision.data.summary} current="decisions"><main class="editorial-page"><article><header class="decision-hero"><a href="/decisions/" class="back-link">← Todas las decisiones</a><div class="decision-hero-grid"><div><p class="case-overline">{decision.data.domain}{related[0]?.data.client && ` · ${related[0].data.client}`}</p><h1>{decision.data.title}</h1></div><p class="decision-deck">{decision.data.summary}</p></div></header><div class="reading-layout decision-reading"><aside class="reading-aside"><span>La pregunta</span><strong>¿Cómo convertir información en una acción útil?</strong></aside><div class="prose"><Content /></div></div></article>{related.map(project => project && <section class="related-project"><p class="section-label">El contexto completo</p><h2>{project.data.title}</h2><p>{project.data.summary}</p>{project.data.kind === 'deep' && <a class="editorial-link" href={`/work/${project.id}/`}>Volver al proyecto <span aria-hidden="true">→</span></a>}</section>)}<section class="editorial-close"><h2>¿Qué decisión necesitas tomar ahora?</h2><Button href="/#contacto" variant="editorial">Hablemos</Button></section></main></BaseLayout>

@@ -1,0 +1,7 @@
+---
+import CapabilityTags from './CapabilityTags.astro';
+import type { CollectionEntry } from 'astro:content';
+interface Props { project: CollectionEntry<'projects'>; }
+const { project } = Astro.props;
+---
+<article class="archive-row"><div><h3>{project.data.title}</h3><p class="archive-stage">{project.data.stage}</p></div><div><p>{project.data.summary}</p><p class="archive-role">{project.data.role}</p><CapabilityTags tags={project.data.capabilities} />{project.data.kind === 'deep' && <a class="editorial-link" href={`/work/${project.id}/`}>Leer el caso <span aria-hidden="true">→</span></a>}</div></article>

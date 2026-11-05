@@ -1,0 +1,152 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - link [ref=f2e3] [cursor=pointer]:
+      - /url: "#inicio"
+      - strong [ref=f2e4]: Luis Pozo
+      - generic [ref=f2e5]: Fractional CTOpara startups
+    - navigation "Navegación principal" [ref=f2e6]:
+      - link "Inicio" [ref=f2e7] [cursor=pointer]:
+        - /url: "#inicio"
+      - link "Enfoque" [ref=f2e8] [cursor=pointer]:
+        - /url: "#sobre-mi"
+      - link "Experiencia" [ref=f2e9] [cursor=pointer]:
+        - /url: "#experiencia"
+      - link "Servicios" [ref=f2e10] [cursor=pointer]:
+        - /url: "#servicios"
+      - link "Sobre mí" [ref=f2e11] [cursor=pointer]:
+        - /url: "#sobre-mi"
+    - link "Solicitar una conversación" [ref=f2e12] [cursor=pointer]:
+      - /url: "#contacto"
+  - main [ref=f2e13]:
+    - generic [ref=f2e14]:
+      - generic [ref=f2e15]:
+        - heading "Liderazgo técnico para tu siguiente etapa" [level=1] [ref=f2e16]
+        - paragraph [ref=f2e17]: "Acompaño a startups como Fractional CTO para conectar negocio, arquitectura y equipos, y convertir la tecnología en progreso real: foco, alineación y capacidad de ejecución."
+        - generic [ref=f2e18]:
+          - text: Experiencia real en
+          - paragraph [ref=f2e19]: Nomu Labs · Hyundai · FIBA
+        - generic [ref=f2e20]:
+          - link "Solicitar una conversación" [ref=f2e21] [cursor=pointer]:
+            - /url: "#contacto"
+          - link "Conocer mi enfoque" [ref=f2e22] [cursor=pointer]:
+            - /url: "#sobre-mi"
+      - generic [ref=f2e23]:
+        - generic [ref=f2e25]: EstrategiatecnológicaArquitecturaEquipos
+        - img "Retrato de Luis Pozo" [ref=f2e26]
+    - generic [ref=f2e27]:
+      - generic [ref=f2e28]:
+        - heading "Quizá estás en uno de estos momentos." [level=2] [ref=f2e29]
+        - paragraph [ref=f2e30]: Cuando el software es clave para el negocio, las decisiones técnicas no pueden quedarse al margen de la estrategia.
+      - generic [ref=f2e31]:
+        - article [ref=f2e32]:
+          - heading "Hay demanda, pero el producto aún no está preparado." [level=3] [ref=f2e33]
+          - paragraph [ref=f2e34]: Un MVP, un piloto o los primeros clientes han demostrado una oportunidad. Ahora toca decidir qué construir, qué conservar y cómo convertirlo en un producto fiable.
+        - article [ref=f2e35]:
+          - heading "Hay equipo, pero falta dirección técnica." [level=3] [ref=f2e36]
+          - paragraph [ref=f2e37]: Las decisiones llegan al founder, las entregas son impredecibles o los desarrolladores necesitan liderazgo senior para avanzar con autonomía.
+        - article [ref=f2e38]:
+          - heading "Hay una decisión importante por delante." [level=3] [ref=f2e39]
+          - paragraph [ref=f2e40]: Evolucionar o reconstruir, contratar, incorporar IA o preparar el producto para un cliente relevante. Antes de comprometer recursos, necesitamos entender las opciones.
+    - region [ref=f2e41]:
+      - generic [ref=f2e42]:
+        - heading "Experiencia en contextos reales." [level=2] [ref=f2e43]
+        - paragraph [ref=f2e44]: He trabajado en productos, equipos y decisiones técnicas en distintas etapas y entornos.
+      - generic "Panorama de trayectoria" [ref=f2e45]:
+        - article [ref=f2e46]:
+          - heading "Nomu Labs" [level=3] [ref=f2e47]
+          - paragraph [ref=f2e48]: CTO & Co-Founder
+          - paragraph [ref=f2e49]: 5 años · aproximadamente 20 personas · 4 squads
+          - list "Áreas de experiencia" [ref=f2e50]:
+            - listitem [ref=f2e51]: Liderazgo de ingeniería
+            - listitem [ref=f2e52]: Producto
+        - generic [ref=f2e53]:
+          - article [ref=f2e54]:
+            - heading "Hyundai" [level=3] [ref=f2e55]
+            - paragraph [ref=f2e56]: Dirección técnica de una solución de automatización creativa con IA y visión por computador.
+            - list "Áreas de experiencia" [ref=f2e57]:
+              - listitem [ref=f2e58]: Dirección técnica
+              - listitem [ref=f2e59]: IA aplicada
+          - article [ref=f2e60]:
+            - heading "FIBA" [level=3] [ref=f2e61]
+            - paragraph [ref=f2e62]: Evolución técnica de una plataforma educativa con alcance en más de 20 países.
+            - list "Áreas de experiencia" [ref=f2e63]:
+              - listitem [ref=f2e64]: Producto
+              - listitem [ref=f2e65]: Evolución técnica
+      - article [ref=f2e66]:
+        - generic [ref=f2e67]:
+          - paragraph [ref=f2e68]: Nomu Labs / Caso en desarrollo
+          - heading "Una metodología de ingeniería con coding agents." [level=3] [ref=f2e69]
+          - paragraph [ref=f2e70]: Diseño e implantación de una forma de trabajar con especificaciones, revisión humana y mecanismos de verificación.
+          - list "Áreas del caso" [ref=f2e71]:
+            - listitem [ref=f2e72]: Ingeniería
+            - listitem [ref=f2e73]: Metodología
+            - listitem [ref=f2e74]: Verificación
+        - generic [ref=f2e75]:
+          - paragraph [ref=f2e76]: "Caso provisional: los detalles de la decisión y sus consecuencias están pendientes de confirmar."
+          - generic [ref=f2e77]:
+            - heading "El contexto" [level=4] [ref=f2e78]
+            - paragraph [ref=f2e79]: "[Pendiente de concretar: situación, necesidades y restricciones que motivaron el cambio.]"
+          - generic [ref=f2e80]:
+            - heading "Las alternativas" [level=4] [ref=f2e81]
+            - paragraph [ref=f2e82]: "[Pendiente de concretar: opciones consideradas y sus trade-offs.]"
+          - generic [ref=f2e83]:
+            - heading "La decisión y mi responsabilidad" [level=4] [ref=f2e84]
+            - paragraph [ref=f2e85]: "[Pendiente de concretar: decisión adoptada, papel personal y participación del equipo.]"
+          - generic [ref=f2e86]:
+            - heading "Consecuencias y aprendizaje" [level=4] [ref=f2e87]
+            - paragraph [ref=f2e88]: "[Pendiente de concretar: efectos y aprendizajes que puedan verificarse.]"
+    - generic [ref=f2e89]:
+      - generic [ref=f2e90]:
+        - heading "Dos formas de trabajar juntos." [level=2] [ref=f2e91]
+        - paragraph [ref=f2e92]: Empezamos por la necesidad real de la empresa y elegimos el nivel de implicación que tenga sentido.
+      - generic [ref=f2e93]:
+        - article [ref=f2e94]:
+          - heading "Technical Clarity Sprint" [level=3] [ref=f2e95]
+          - generic [ref=f2e96]: 1–2 semanas · alcance cerrado
+          - paragraph [ref=f2e97]: Una intervención enfocada para aclarar la incertidumbre que frena la siguiente etapa. Revisamos producto, riesgos, arquitectura, prioridades y equipo.
+          - paragraph [ref=f2e98]:
+            - strong [ref=f2e99]: "El resultado:"
+            - text: un plan técnico accionable para los próximos 90 días y, cuando aporte claridad, un prototipo para validar una hipótesis crítica.
+        - article [ref=f2e100]:
+          - heading "Fractional CTO" [level=3] [ref=f2e101]
+          - generic [ref=f2e102]: Colaboración inicial · 3 meses
+          - paragraph [ref=f2e103]: "Asumo el liderazgo técnico junto al founder: decisiones de arquitectura, roadmap, dirección de ingeniería, entregas y equipo."
+          - paragraph [ref=f2e104]:
+            - strong [ref=f2e105]: "El resultado que buscamos:"
+            - text: más capacidad de ejecución, menos decisiones concentradas en el founder y un equipo progresivamente más autónomo.
+    - generic [ref=f2e106]:
+      - generic [ref=f2e107]:
+        - heading "Dirección cuando hace falta. Trabajo directo donde importa." [level=2] [ref=f2e108]
+        - paragraph [ref=f2e109]: Me involucro personalmente para conectar lo que el negocio necesita con las decisiones y el trabajo técnico que lo hacen posible.
+      - generic [ref=f2e110]:
+        - article [ref=f2e111]:
+          - heading "Partir del negocio" [level=3] [ref=f2e112]
+          - paragraph [ref=f2e113]: Cada decisión técnica responde a una prioridad concreta y a la etapa de la empresa.
+        - article [ref=f2e114]:
+          - heading "Involucrarme de verdad" [level=3] [ref=f2e115]
+          - paragraph [ref=f2e116]: Combino dirección con diseño, revisión y prototipado cuando aportan valor diferencial.
+        - article [ref=f2e117]:
+          - heading "Construir autonomía" [level=3] [ref=f2e118]
+          - paragraph [ref=f2e119]: Trabajo con el equipo para que pueda tomar mejores decisiones y avanzar sin dependencia innecesaria.
+    - generic [ref=f2e120]:
+      - generic [ref=f2e121]:
+        - heading "¿Tu startup está en ese momento?" [level=2] [ref=f2e122]
+        - paragraph [ref=f2e123]: Si ya hay una oportunidad validada y necesitas liderazgo técnico para dar el siguiente paso, cuéntame un poco sobre tu situación.
+      - generic [ref=f2e124]:
+        - generic [ref=f2e125]: ¿En qué punto está tu startup?
+        - combobox "¿En qué punto está tu startup?" [ref=f2e126]:
+          - option "Selecciona una opción" [selected]
+          - option "Tenemos un MVP, piloto o primeros clientes"
+          - option "Tenemos producto y equipo de ingeniería"
+          - option "Otra situación"
+        - generic [ref=f2e127]: ¿Qué decisión o reto os está frenando?
+        - textbox "¿Qué decisión o reto os está frenando?" [ref=f2e128]:
+          - /placeholder: Cuéntame brevemente el contexto
+        - button "Preparar mi mensaje" [ref=f2e129] [cursor=pointer]
+        - paragraph [ref=f2e130]: La vía de contacto se añadirá antes de publicar. Puedes preparar y copiar tu mensaje mientras tanto.
+  - contentinfo [ref=f2e131]:
+    - link "Luis Pozo" [ref=f2e132] [cursor=pointer]:
+      - /url: "#inicio"
+    - paragraph [ref=f2e133]: Fractional CTO · Madrid / remoto
+    - link "Volver arriba ↑" [ref=f2e134] [cursor=pointer]:
+      - /url: "#inicio"

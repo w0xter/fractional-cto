@@ -1,0 +1,371 @@
+{
+  "tool": "comp-diff",
+  "version": 1,
+  "createdAt": "2026-11-04T21:38:28.895Z",
+  "label": "hero",
+  "comp": ".impeccable/mocks/decision/pick.png",
+  "build": ".impeccable/review/hero-repro.png",
+  "spec": ".impeccable/build/spec.json",
+  "compSize": "1672x941",
+  "buildSize": "1672x941",
+  "align": "top",
+  "overall": 0.78,
+  "verdict": "drift",
+  "scores": {
+    "overall": 0.78,
+    "structure": 0.6418,
+    "color": 0.8558,
+    "colorIntersection": 0.7554,
+    "paletteMatch": 0.9099,
+    "detail": 0.7658,
+    "detailRaw": 0.7918,
+    "detailAdded": 0.0521,
+    "bands": 1
+  },
+  "palette": {
+    "comp": [
+      {
+        "hex": "#f7f4e7",
+        "coverage": 0.6859
+      },
+      {
+        "hex": "#9b4729",
+        "coverage": 0.099
+      },
+      {
+        "hex": "#181b19",
+        "coverage": 0.0954
+      },
+      {
+        "hex": "#333328",
+        "coverage": 0.0647
+      },
+      {
+        "hex": "#bdb3a9",
+        "coverage": 0.0359
+      },
+      {
+        "hex": "#5d5852",
+        "coverage": 0.0191
+      }
+    ],
+    "build": [
+      {
+        "hex": "#f8f3e8",
+        "coverage": 0.6794
+      },
+      {
+        "hex": "#202420",
+        "coverage": 0.1642
+      },
+      {
+        "hex": "#9c4828",
+        "coverage": 0.0899
+      },
+      {
+        "hex": "#b3b3b1",
+        "coverage": 0.0402
+      },
+      {
+        "hex": "#7a7c7a",
+        "coverage": 0.0133
+      },
+      {
+        "hex": "#4a4f4b",
+        "coverage": 0.013
+      }
+    ]
+  },
+  "regions": [
+    {
+      "id": "nav",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 0.1,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.6768,
+        "structure": 0.813,
+        "color": 0.8071,
+        "colorIntersection": 0.6729,
+        "paletteMatch": 0.8793,
+        "detail": 0.462,
+        "detailRaw": 0.5402,
+        "detailAdded": 0.1563,
+        "bands": 0.5
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 77,
+          "y": 17,
+          "w": 1559,
+          "h": 77
+        },
+        "build": {
+          "x": 77,
+          "y": 4,
+          "w": 1592,
+          "h": 90
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "headline",
+      "x": 0.0419,
+      "y": 0.1594,
+      "w": 0.4904,
+      "h": 0.2019,
+      "kind": "text",
+      "score": {
+        "overall": 0.6119,
+        "structure": 0.4833,
+        "color": 0.8109,
+        "colorIntersection": 0.6745,
+        "paletteMatch": 0.8843,
+        "detail": 0.5763,
+        "detailRaw": 0.6388,
+        "detailAdded": 0.125,
+        "bands": 0.8109
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 5,
+          "y": 20,
+          "w": 815,
+          "h": 170
+        },
+        "build": {
+          "x": 6,
+          "y": 18,
+          "w": 789,
+          "h": 146
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "intro",
+      "x": 0.0449,
+      "y": 0.3985,
+      "w": 0.4486,
+      "h": 0.1116,
+      "kind": "text",
+      "score": {
+        "overall": 0.7624,
+        "structure": 0.7446,
+        "color": 0.7789,
+        "colorIntersection": 0.6402,
+        "paletteMatch": 0.8536,
+        "detail": 0.7021,
+        "detailRaw": 0.7594,
+        "detailAdded": 0.1146,
+        "bands": 0.9
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 4,
+          "y": 4,
+          "w": 704,
+          "h": 97
+        },
+        "build": {
+          "x": 0,
+          "y": 7,
+          "w": 651,
+          "h": 94
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "experience",
+      "x": 0.0598,
+      "y": 0.5313,
+      "w": 0.3589,
+      "h": 0.0797,
+      "kind": "text",
+      "score": {
+        "overall": 0.5993,
+        "structure": 0.6064,
+        "color": 0.8488,
+        "colorIntersection": 0.7239,
+        "paletteMatch": 0.9161,
+        "detail": 0.4479,
+        "detailRaw": 0.5156,
+        "detailAdded": 0.1354,
+        "bands": 0.1667
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 11,
+          "w": 531,
+          "h": 64
+        },
+        "build": {
+          "x": 4,
+          "y": 8,
+          "w": 527,
+          "h": 61
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "cta",
+      "x": 0.0461,
+      "y": 0.6589,
+      "w": 0.2512,
+      "h": 0.0691,
+      "kind": "control",
+      "score": {
+        "overall": 0.7717,
+        "structure": 0.7081,
+        "color": 0.8863,
+        "colorIntersection": 0.7876,
+        "paletteMatch": 0.9394,
+        "detail": 0.7141,
+        "detailRaw": 0.7453,
+        "detailAdded": 0.0625,
+        "bands": 0.8
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 0,
+          "w": 420,
+          "h": 65
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 420,
+          "h": 65
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "portrait",
+      "x": 0.4934,
+      "y": 0.0829,
+      "w": 0.4426,
+      "h": 0.6908,
+      "kind": "image",
+      "score": {
+        "overall": 0.6334,
+        "structure": 0.5497,
+        "color": 0.6652,
+        "colorIntersection": 0.4886,
+        "paletteMatch": 0.7603,
+        "detail": 0.6698,
+        "detailRaw": 0.6907,
+        "detailAdded": 0.0417,
+        "bands": 0.56
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 0,
+          "w": 740,
+          "h": 650
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 740,
+          "h": 650
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "next-heading",
+      "x": 0.0419,
+      "y": 0.8502,
+      "w": 0.2871,
+      "h": 0.1222,
+      "kind": "text",
+      "score": {
+        "overall": 0.4551,
+        "structure": 0.4334,
+        "color": 0.4769,
+        "colorIntersection": 0.1207,
+        "paletteMatch": 0.6686,
+        "detail": 0.4166,
+        "detailRaw": 0.5156,
+        "detailAdded": 0.1979,
+        "bands": 0.5667
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 3,
+          "y": 11,
+          "w": 440,
+          "h": 100
+        },
+        "build": {
+          "x": 7,
+          "y": 5,
+          "w": 450,
+          "h": 88
+        }
+      },
+      "blocking": true,
+      "blockingReasons": [
+        "region next-heading (text) is contradicted (structure 43%, detail added 20%): the composition of this text region differs from the comp; re-derive it from the spec box"
+      ],
+      "rawVerdict": "contradicted"
+    }
+  ],
+  "files": {
+    "sideBySide": "/Users/luispozogilo/Desktop/side/fractional-cto/.impeccable/review/diff/hero/side-by-side.png",
+    "heatmap": "/Users/luispozogilo/Desktop/side/fractional-cto/.impeccable/review/diff/hero/heatmap.png",
+    "regionFiles": [
+      "/Users/luispozogilo/Desktop/side/fractional-cto/.impeccable/review/diff/hero/regions/nav.png",
+      "/Users/luispozogilo/Desktop/side/fractional-cto/.impeccable/review/diff/hero/regions/headline.png",
+      "/Users/luispozogilo/Desktop/side/fractional-cto/.impeccable/review/diff/hero/regions/intro.png",
+      "/Users/luispozogilo/Desktop/side/fractional-cto/.impeccable/review/diff/hero/regions/experience.png",
+      "/Users/luispozogilo/Desktop/side/fractional-cto/.impeccable/review/diff/hero/regions/cta.png",
+      "/Users/luispozogilo/Desktop/side/fractional-cto/.impeccable/review/diff/hero/regions/portrait.png",
+      "/Users/luispozogilo/Desktop/side/fractional-cto/.impeccable/review/diff/hero/regions/next-heading.png"
+    ]
+  },
+  "interpretation": "hero-gate",
+  "measurementsAvailable": true,
+  "gate": {
+    "ok": false,
+    "reasons": [
+      "region next-heading (text) is contradicted (structure 43%, detail added 20%): the composition of this text region differs from the comp; re-derive it from the spec box"
+    ],
+    "advisories": [
+      "(advisory, above the 72% bar; fix in the polish pass before responsive) 3 readings:",
+      "  text headline: cap height 55.2px in the build, 43px in the comp (+28%); set font-size so the cap height renders at 43px (font-match ranked Taviraj 700 at 61px)",
+      "  text intro: ink is #192919 in the build, #b0b3a9 in the comp; use the comp's colour",
+      "  control cta: its rule sits 1px into the box in the comp and 27px in the build (+26px), so the strip is taller than the comp's; match the height, not only the position"
+    ],
+    "unscopedReasons": []
+  },
+  "rawReport": ".impeccable/review/diff/hero/raw-report.json"
+}

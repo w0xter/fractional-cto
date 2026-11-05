@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-04T21:59:55.584588+00:00",
+  "title": "Design System: Luis Pozo",
+  "extensions": {
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "520px"
+      },
+      {
+        "name": "tablet",
+        "value": "700px"
+      },
+      {
+        "name": "desktop",
+        "value": "1350px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón principal",
+      "kind": "button",
+      "html": "<button class=\"ds-button\">Solicitar una conversación</button>",
+      "css": ".ds-button{background:#a74425;color:#fff;border:0;border-radius:5px;padding:1.15rem 1.7rem;font:bold 1.2rem Georgia,serif;cursor:pointer}.ds-button:hover{background:#792f1c}.ds-button:focus-visible{outline:3px solid #a74425;outline-offset:5px}"
+    }
+  ]
+}

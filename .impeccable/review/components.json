@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 3,
+  "stage": "components",
+  "id": "components",
+  "title": "Plan and asset review",
+  "comp": {
+    "path": ".impeccable/mocks/decision/pick.png",
+    "width": 1672,
+    "height": 941
+  },
+  "specSha256": "73ac2f8b931581763842fb0774113123f7dadf235963cfaa60f290e93e3bc885",
+  "components": [
+    {
+      "id": "portrait",
+      "name": "Portrait",
+      "kind": "image",
+      "role": "asset",
+      "box": {
+        "x": 0.4934,
+        "y": 0.0829,
+        "w": 0.4426,
+        "h": 0.6908
+      },
+      "note": "retrato personal proporcionado por el usuario, sobre fondo terracota",
+      "medium": "raster",
+      "preview": {
+        "kind": "image",
+        "path": "assets/plates/portrait.png"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "nav",
+      "name": "Nav",
+      "kind": "chrome",
+      "role": "plan",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.1
+      },
+      "note": "navegación superior",
+      "medium": "code",
+      "preview": {
+        "kind": "comp-crop"
+      },
+      "codeDrawn": false,
+      "dependencies": []
+    }
+  ],
+  "codeRegions": [
+    {
+      "id": "headline",
+      "name": "Headline",
+      "kind": "text",
+      "box": {
+        "x": 0.0419,
+        "y": 0.1594,
+        "w": 0.4904,
+        "h": 0.2019
+      },
+      "note": "titular principal"
+    },
+    {
+      "id": "intro",
+      "name": "Intro",
+      "kind": "text",
+      "box": {
+        "x": 0.0449,
+        "y": 0.3985,
+        "w": 0.4486,
+        "h": 0.1116
+      },
+      "note": "introducción"
+    },
+    {
+      "id": "experience",
+      "name": "Experience",
+      "kind": "text",
+      "box": {
+        "x": 0.0598,
+        "y": 0.5313,
+        "w": 0.3589,
+        "h": 0.0797
+      },
+      "note": "experiencia"
+    },
+    {
+      "id": "cta",
+      "name": "Cta",
+      "kind": "control",
+      "box": {
+        "x": 0.0461,
+        "y": 0.6589,
+        "w": 0.2512,
+        "h": 0.0691
+      },
+      "note": "solicitar conversación"
+    },
+    {
+      "id": "next-heading",
+      "name": "Next heading",
+      "kind": "text",
+      "box": {
+        "x": 0.0419,
+        "y": 0.8502,
+        "w": 0.2871,
+        "h": 0.1222
+      },
+      "note": "encabezado de la siguiente sección"
+    }
+  ]
+}

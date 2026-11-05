@@ -1,0 +1,132 @@
+- generic [active] [ref=f20e1]:
+  - banner [ref=f20e2]:
+    - link [ref=f20e3] [cursor=pointer]:
+      - /url: "#inicio"
+      - strong [ref=f20e4]: Luis Pozo
+    - navigation "Navegación principal" [ref=f20e5]:
+      - link "Inicio" [ref=f20e6] [cursor=pointer]:
+        - /url: "#inicio"
+      - link "Enfoque" [ref=f20e7] [cursor=pointer]:
+        - /url: "#enfoque"
+      - link "Servicios" [ref=f20e8] [cursor=pointer]:
+        - /url: "#servicios"
+      - link "Experiencia" [ref=f20e9] [cursor=pointer]:
+        - /url: "#experiencia"
+      - link "Sobre mí" [ref=f20e10] [cursor=pointer]:
+        - /url: "#sobre-mi"
+    - link "Solicitar una conversación" [ref=f20e11] [cursor=pointer]:
+      - /url: "#contacto"
+  - main [ref=f20e12]:
+    - generic [ref=f20e13]:
+      - generic [ref=f20e14]:
+        - paragraph [ref=f20e15]: Tecnología · Negocio · Equipos
+        - heading "Liderazgo técnico para tu siguiente etapa" [level=1] [ref=f20e16]
+        - paragraph [ref=f20e17]: "Acompaño a startups como Fractional CTO para conectar negocio, arquitectura y equipos, y convertir la tecnología en progreso real: foco, alineación y capacidad de ejecución."
+        - generic [ref=f20e18]:
+          - text: Experiencia real en
+          - paragraph [ref=f20e19]: Nomu Labs · Hyundai · FIBA
+        - generic [ref=f20e20]:
+          - link "Solicitar una conversación" [ref=f20e21] [cursor=pointer]:
+            - /url: "#contacto"
+          - link "Conocer mi enfoque" [ref=f20e22] [cursor=pointer]:
+            - /url: "#enfoque"
+      - generic [ref=f20e23]:
+        - generic [ref=f20e25]: EstrategiatecnológicaArquitecturaEquipos
+        - img "Retrato de Luis Pozo" [ref=f20e26]
+    - generic [ref=f20e27]:
+      - heading "Liderazgo técnico con visión de negocio" [level=2] [ref=f20e28]: Liderazgo técnicocon visión de negocio
+      - generic [ref=f20e29]:
+        - heading "Negocio" [level=3] [ref=f20e30]
+        - paragraph [ref=f20e31]: Traduzco objetivos de negocio en prioridades tecnológicas con impacto.
+      - generic [ref=f20e32]:
+        - heading "Arquitectura" [level=3] [ref=f20e33]
+        - paragraph [ref=f20e34]: Diseño y evoluciono una arquitectura alineada con tu siguiente etapa.
+      - generic [ref=f20e35]:
+        - heading "Equipos" [level=3] [ref=f20e36]
+        - paragraph [ref=f20e37]: Trabajo con equipos de producto e ingeniería para avanzar con foco y autonomía.
+    - generic [ref=f20e38]:
+      - generic [ref=f20e39]:
+        - heading "Quizá estás en uno de estos momentos." [level=2] [ref=f20e40]
+        - paragraph [ref=f20e41]: Cuando el software es clave para el negocio, las decisiones técnicas no pueden quedarse al margen de la estrategia.
+      - generic [ref=f20e42]:
+        - article [ref=f20e43]:
+          - heading "Hay demanda, pero el producto aún no está preparado." [level=3] [ref=f20e44]
+          - paragraph [ref=f20e45]: Un MVP, un piloto o los primeros clientes han demostrado una oportunidad. Ahora toca decidir qué construir, qué conservar y cómo convertirlo en un producto fiable.
+        - article [ref=f20e46]:
+          - heading "Hay equipo, pero falta dirección técnica." [level=3] [ref=f20e47]
+          - paragraph [ref=f20e48]: Las decisiones llegan al founder, las entregas son impredecibles o los desarrolladores necesitan liderazgo senior para avanzar con autonomía.
+        - article [ref=f20e49]:
+          - heading "Hay una decisión importante por delante." [level=3] [ref=f20e50]
+          - paragraph [ref=f20e51]: Evolucionar o reconstruir, contratar, incorporar IA o preparar el producto para un cliente relevante. Antes de comprometer recursos, necesitamos entender las opciones.
+    - generic [ref=f20e52]:
+      - generic [ref=f20e53]:
+        - heading "Dos formas de trabajar juntos." [level=2] [ref=f20e54]
+        - paragraph [ref=f20e55]: Empezamos por la necesidad real de la empresa y elegimos el nivel de implicación que tenga sentido.
+      - generic [ref=f20e56]:
+        - article [ref=f20e57]:
+          - heading "Technical Clarity Sprint" [level=3] [ref=f20e58]
+          - generic [ref=f20e59]: 1–2 semanas · alcance cerrado
+          - paragraph [ref=f20e60]: Una intervención enfocada para aclarar la incertidumbre que frena la siguiente etapa. Revisamos producto, riesgos, arquitectura, prioridades y equipo.
+          - paragraph [ref=f20e61]:
+            - strong [ref=f20e62]: "El resultado:"
+            - text: un plan técnico accionable para los próximos 90 días y, cuando aporte claridad, un prototipo para validar una hipótesis crítica.
+        - article [ref=f20e63]:
+          - heading "Fractional CTO" [level=3] [ref=f20e64]
+          - generic [ref=f20e65]: Colaboración inicial · 3 meses
+          - paragraph [ref=f20e66]: "Asumo el liderazgo técnico junto al founder: decisiones de arquitectura, roadmap, dirección de ingeniería, entregas y equipo."
+          - paragraph [ref=f20e67]:
+            - strong [ref=f20e68]: "El resultado que buscamos:"
+            - text: más capacidad de ejecución, menos decisiones concentradas en el founder y un equipo progresivamente más autónomo.
+    - generic [ref=f20e69]:
+      - generic [ref=f20e70]:
+        - heading "Dirección cuando hace falta. Trabajo directo donde importa." [level=2] [ref=f20e71]
+        - paragraph [ref=f20e72]: Me involucro personalmente para conectar lo que el negocio necesita con las decisiones y el trabajo técnico que lo hacen posible.
+      - generic [ref=f20e73]:
+        - article [ref=f20e74]:
+          - heading "Partir del negocio" [level=3] [ref=f20e75]
+          - paragraph [ref=f20e76]: Cada decisión técnica responde a una prioridad concreta y a la etapa de la empresa.
+        - article [ref=f20e77]:
+          - heading "Involucrarme de verdad" [level=3] [ref=f20e78]
+          - paragraph [ref=f20e79]: Combino dirección con diseño, revisión y prototipado cuando aportan valor diferencial.
+        - article [ref=f20e80]:
+          - heading "Construir autonomía" [level=3] [ref=f20e81]
+          - paragraph [ref=f20e82]: Trabajo con el equipo para que pueda tomar mejores decisiones y avanzar sin dependencia innecesaria.
+    - generic [ref=f20e83]:
+      - generic [ref=f20e84]:
+        - heading "Experiencia en contextos reales." [level=2] [ref=f20e85]
+        - paragraph [ref=f20e86]: He trabajado en productos, equipos y decisiones técnicas en distintas etapas y entornos.
+      - generic [ref=f20e87]:
+        - article [ref=f20e88]:
+          - heading "Nomu Labs" [level=3] [ref=f20e89]
+          - paragraph [ref=f20e90]: CTO & Co-Founder
+          - paragraph [ref=f20e91]: Cinco años liderando el desarrollo de productos y una organización tecnológica de aproximadamente 20 personas y cuatro squads, desde discovery hasta producción.
+        - article [ref=f20e92]:
+          - heading "Hyundai" [level=3] [ref=f20e93]
+          - paragraph [ref=f20e94]: IA y visión por computador
+          - paragraph [ref=f20e95]: Dirección técnica de una solución de automatización creativa que combina visión por computador, IA y reglas deterministas para adaptar campañas.
+        - article [ref=f20e96]:
+          - heading "FIBA" [level=3] [ref=f20e97]
+          - paragraph [ref=f20e98]: Hoops for Schools
+          - paragraph [ref=f20e99]: Evolución técnica de una plataforma educativa con alcance en más de 20 países, 3.000 escuelas y 68.000 estudiantes.
+    - generic [ref=f20e100]:
+      - generic [ref=f20e101]:
+        - heading "¿Tu startup está en ese momento?" [level=2] [ref=f20e102]
+        - paragraph [ref=f20e103]: Si ya hay una oportunidad validada y necesitas liderazgo técnico para dar el siguiente paso, cuéntame un poco sobre tu situación.
+      - generic [ref=f20e104]:
+        - generic [ref=f20e105]: ¿En qué punto está tu startup?
+        - combobox "¿En qué punto está tu startup?" [ref=f20e106]:
+          - option "Selecciona una opción" [selected]
+          - option "Tenemos un MVP, piloto o primeros clientes"
+          - option "Tenemos producto y equipo de ingeniería"
+          - option "Otra situación"
+        - generic [ref=f20e107]: ¿Qué decisión o reto os está frenando?
+        - textbox "¿Qué decisión o reto os está frenando?" [ref=f20e108]:
+          - /placeholder: Cuéntame brevemente el contexto
+        - button "Preparar mi mensaje" [ref=f20e109] [cursor=pointer]
+        - paragraph [ref=f20e110]: La vía de contacto se añadirá antes de publicar. Puedes preparar y copiar tu mensaje mientras tanto.
+  - contentinfo [ref=f20e111]:
+    - link "Luis Pozo" [ref=f20e112] [cursor=pointer]:
+      - /url: "#inicio"
+    - paragraph [ref=f20e113]: Fractional CTO · Madrid / remoto
+    - link "Volver arriba ↑" [ref=f20e114] [cursor=pointer]:
+      - /url: "#inicio"

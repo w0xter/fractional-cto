@@ -1,0 +1,589 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-11-04T21:24:39.992Z",
+  "comp": ".impeccable/mocks/decision/pick.png",
+  "warnings": [
+    "region portrait: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)"
+  ],
+  "uncoveredInkCells": [
+    "A1",
+    "B1",
+    "J2",
+    "A5",
+    "A6",
+    "B6",
+    "C6",
+    "D6",
+    "A8",
+    "B8",
+    "C8",
+    "G8",
+    "I8",
+    "E9",
+    "F9",
+    "G9",
+    "H9",
+    "I9",
+    "J9"
+  ],
+  "compSize": {
+    "width": 1672,
+    "height": 941
+  },
+  "aspect": 1.7768,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#f7f4e7",
+      "coverage": 0.6993
+    },
+    {
+      "hex": "#9b4729",
+      "coverage": 0.1009
+    },
+    {
+      "hex": "#181b19",
+      "coverage": 0.0973
+    },
+    {
+      "hex": "#333328",
+      "coverage": 0.0659
+    },
+    {
+      "hex": "#bdb3a9",
+      "coverage": 0.0366
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.0278,
+      "strength": 0.377
+    },
+    {
+      "y": 0.0694,
+      "strength": 0.3931
+    },
+    {
+      "y": 0.1111,
+      "strength": 0.5071
+    },
+    {
+      "y": 0.2083,
+      "strength": 0.3408
+    },
+    {
+      "y": 0.25,
+      "strength": 0.6616
+    },
+    {
+      "y": 0.2917,
+      "strength": 0.5542
+    },
+    {
+      "y": 0.3333,
+      "strength": 0.6192
+    },
+    {
+      "y": 0.4028,
+      "strength": 0.2285
+    },
+    {
+      "y": 0.4444,
+      "strength": 0.3701
+    },
+    {
+      "y": 0.4861,
+      "strength": 0.4237
+    },
+    {
+      "y": 0.5833,
+      "strength": 0.2581
+    },
+    {
+      "y": 0.6111,
+      "strength": 0.3175
+    },
+    {
+      "y": 0.6667,
+      "strength": 0.27
+    },
+    {
+      "y": 0.7222,
+      "strength": 0.5412
+    },
+    {
+      "y": 0.7778,
+      "strength": 0.495
+    },
+    {
+      "y": 0.875,
+      "strength": 0.3447
+    },
+    {
+      "y": 0.9306,
+      "strength": 0.7271
+    },
+    {
+      "y": 0.9722,
+      "strength": 0.3588
+    }
+  ],
+  "regions": [
+    {
+      "id": "nav",
+      "kind": "chrome",
+      "note": "navegación superior",
+      "grid": "A0:J0",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.1
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 94
+      },
+      "aspect": 17.7872,
+      "palette": [
+        {
+          "hex": "#f8f3e8",
+          "coverage": 0.9009
+        },
+        {
+          "hex": "#a74525",
+          "coverage": 0.0657
+        },
+        {
+          "hex": "#1c2a20",
+          "coverage": 0.0138
+        },
+        {
+          "hex": "#c3c1b8",
+          "coverage": 0.0098
+        },
+        {
+          "hex": "#8b8c86",
+          "coverage": 0.0097
+        }
+      ],
+      "detail": {
+        "energy": 31.6215
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "titular principal",
+      "grid": null,
+      "box": {
+        "x": 0.0419,
+        "y": 0.1594,
+        "w": 0.4904,
+        "h": 0.2019
+      },
+      "px": {
+        "x": 70,
+        "y": 150,
+        "w": 820,
+        "h": 190
+      },
+      "aspect": 4.3158,
+      "palette": [
+        {
+          "hex": "#f8f5e9",
+          "coverage": 0.7653
+        },
+        {
+          "hex": "#17281f",
+          "coverage": 0.195
+        },
+        {
+          "hex": "#93978d",
+          "coverage": 0.0185
+        },
+        {
+          "hex": "#525d52",
+          "coverage": 0.0118
+        },
+        {
+          "hex": "#bfc3b8",
+          "coverage": 0.0095
+        }
+      ],
+      "detail": {
+        "energy": 77.5972
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 19,
+          "capHeightPx": 43,
+          "inkIsDark": true,
+          "allCaps": true,
+          "advance": 0.907,
+          "advTall": 0.907,
+          "advX": null,
+          "gap": 0.093,
+          "xRatio": null,
+          "stemW": 0.2788,
+          "contrast": 2.5474,
+          "serif": 1.3423,
+          "densTall": 0.5694,
+          "densX": null,
+          "weight": 0.5694
+        },
+        "widthClass": "wide",
+        "weightClass": "bold",
+        "chosen": {
+          "family": "Taviraj",
+          "weight": 700,
+          "fontSizePx": 61,
+          "source": "catalog",
+          "estimatedSize": true,
+          "stamp": "0f994bf89c22"
+        }
+      }
+    },
+    {
+      "id": "intro",
+      "kind": "text",
+      "note": "introducción",
+      "grid": null,
+      "box": {
+        "x": 0.0449,
+        "y": 0.3985,
+        "w": 0.4486,
+        "h": 0.1116
+      },
+      "px": {
+        "x": 75,
+        "y": 375,
+        "w": 750,
+        "h": 105
+      },
+      "aspect": 7.1429,
+      "palette": [
+        {
+          "hex": "#f7f4e9",
+          "coverage": 0.8598
+        },
+        {
+          "hex": "#b0b3a9",
+          "coverage": 0.0413
+        },
+        {
+          "hex": "#0e1613",
+          "coverage": 0.0393
+        },
+        {
+          "hex": "#323f34",
+          "coverage": 0.0324
+        },
+        {
+          "hex": "#757e72",
+          "coverage": 0.0272
+        }
+      ],
+      "detail": {
+        "energy": 61.6456
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 3,
+          "glyphs": 143,
+          "capHeightPx": 19.3,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5898,
+          "advTall": 0.3775,
+          "advX": 0.6076,
+          "gap": 0.0804,
+          "xRatio": 0.686,
+          "stemW": 0.14,
+          "contrast": 1.3473,
+          "serif": 1.9696,
+          "densTall": 0.4366,
+          "densX": 0.4696,
+          "weight": 0.4366
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "experience",
+      "kind": "text",
+      "note": "experiencia",
+      "grid": null,
+      "box": {
+        "x": 0.0598,
+        "y": 0.5313,
+        "w": 0.3589,
+        "h": 0.0797
+      },
+      "px": {
+        "x": 100,
+        "y": 500,
+        "w": 600,
+        "h": 75
+      },
+      "aspect": 8,
+      "palette": [
+        {
+          "hex": "#f8f6e9",
+          "coverage": 0.8456
+        },
+        {
+          "hex": "#14271e",
+          "coverage": 0.0937
+        },
+        {
+          "hex": "#c8cbc1",
+          "coverage": 0.029
+        },
+        {
+          "hex": "#8a8f84",
+          "coverage": 0.0164
+        },
+        {
+          "hex": "#4c594d",
+          "coverage": 0.0153
+        }
+      ],
+      "detail": {
+        "energy": 60.8311
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 17,
+          "capHeightPx": 30.2,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6612,
+          "advTall": 0.6943,
+          "advX": 0.6447,
+          "gap": 0.0661,
+          "xRatio": 0.7049,
+          "stemW": 0.1888,
+          "contrast": 2.2189,
+          "serif": 1.6661,
+          "densTall": 0.498,
+          "densX": 0.5919,
+          "weight": 0.498
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "cta",
+      "kind": "control",
+      "note": "solicitar conversación",
+      "grid": null,
+      "box": {
+        "x": 0.0461,
+        "y": 0.6589,
+        "w": 0.2512,
+        "h": 0.0691
+      },
+      "px": {
+        "x": 77,
+        "y": 620,
+        "w": 420,
+        "h": 65
+      },
+      "aspect": 6.4615,
+      "palette": [
+        {
+          "hex": "#a84827",
+          "coverage": 0.7956
+        },
+        {
+          "hex": "#f8eee4",
+          "coverage": 0.1048
+        },
+        {
+          "hex": "#d9ad9b",
+          "coverage": 0.0609
+        },
+        {
+          "hex": "#b66747",
+          "coverage": 0.028
+        },
+        {
+          "hex": "#ca8c73",
+          "coverage": 0.0107
+        }
+      ],
+      "detail": {
+        "energy": 42.9851
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "portrait",
+      "kind": "image",
+      "note": "retrato personal proporcionado por el usuario, sobre fondo terracota",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0.4934,
+        "y": 0.0829,
+        "w": 0.4426,
+        "h": 0.6908
+      },
+      "px": {
+        "x": 825,
+        "y": 78,
+        "w": 740,
+        "h": 650
+      },
+      "aspect": 1.1385,
+      "palette": [
+        {
+          "hex": "#f3e9e1",
+          "coverage": 0.2886
+        },
+        {
+          "hex": "#1a1a18",
+          "coverage": 0.2563
+        },
+        {
+          "hex": "#38352a",
+          "coverage": 0.1846
+        },
+        {
+          "hex": "#984729",
+          "coverage": 0.1843
+        },
+        {
+          "hex": "#c0b3a9",
+          "coverage": 0.0862
+        }
+      ],
+      "detail": {
+        "energy": 19.6695
+      },
+      "medium": "raster",
+      "plate": "assets/plates/portrait.png",
+      "text": null
+    },
+    {
+      "id": "next-heading",
+      "kind": "text",
+      "note": "encabezado de la siguiente sección",
+      "grid": null,
+      "box": {
+        "x": 0.0419,
+        "y": 0.8502,
+        "w": 0.2871,
+        "h": 0.1222
+      },
+      "px": {
+        "x": 70,
+        "y": 800,
+        "w": 480,
+        "h": 115
+      },
+      "aspect": 4.1739,
+      "palette": [
+        {
+          "hex": "#f7f7ea",
+          "coverage": 0.7756
+        },
+        {
+          "hex": "#15281f",
+          "coverage": 0.1503
+        },
+        {
+          "hex": "#6b746a",
+          "coverage": 0.0291
+        },
+        {
+          "hex": "#444d46",
+          "coverage": 0.0238
+        },
+        {
+          "hex": "#bcbdb3",
+          "coverage": 0.0212
+        }
+      ],
+      "detail": {
+        "energy": 73.6697
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 23,
+          "capHeightPx": 35.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7677,
+          "advTall": 1.0519,
+          "advX": 0.7109,
+          "gap": 0.0284,
+          "xRatio": 0.7073,
+          "stemW": 0.1989,
+          "contrast": 2.0424,
+          "serif": 1.3907,
+          "densTall": 0.4204,
+          "densX": 0.5317,
+          "weight": 0.4204
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    }
+  ],
+  "compSha256": "47deca5aca8bc06f7ee1b51655b6a7e6d407d03ee10b1ced3e31ab3b37d84003",
+  "regionsSource": {
+    "path": ".impeccable/build/regions.json",
+    "sha256": "8ae020280599a13fe4db5b37545abeed16da6c33b051c02626c98ffdc26bf338"
+  }
+}

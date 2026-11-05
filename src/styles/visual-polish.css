@@ -1,0 +1,90 @@
+/* Shared editorial finishing: type, rhythm and interaction across the site. */
+:root {
+  --rule: #b8b6aa;
+  --page-gutter: clamp(1.25rem, 5vw, 5rem);
+}
+.site-header { border-bottom: 1px solid rgba(23, 40, 31, .12); }
+.site-header nav a { padding-block: .45rem; text-decoration-thickness: 1px; }
+.site-header nav a[aria-current="page"] { text-underline-offset: .45em; }
+.header-cta, .button { border-radius: 2px; }
+a, button, select, textarea { transition: color .18s ease, background-color .18s ease, border-color .18s ease; }
+a:focus-visible, button:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.editorial-link span, .archive-entry span { transition: transform .18s ease; }
+.editorial-link:hover span, .archive-entry a:hover span { transform: translateX(.25rem); }
+.editorial-link:focus-visible, .back-link:focus-visible, .light-link:focus-visible { outline-color: currentColor; }
+.approach > #enfoque { position: absolute; top: 0; }
+
+/* A consistent page edge, with wider titles balanced by quieter reading columns. */
+.archive-hero, .archive-section, .decision-index, .case-hero, .decision-hero,
+.related-section, .related-project, .editorial-close { padding-left: var(--page-gutter); padding-right: var(--page-gutter); }
+.featured-project { margin-left: var(--page-gutter); margin-right: var(--page-gutter); }
+.archive-hero { grid-template-columns: minmax(0, 1.4fr) minmax(16rem, .65fr); gap: clamp(3rem, 8vw, 8rem); }
+.archive-hero h1, .decision-hero h1 { font-size: clamp(3.5rem, 6.2vw, 6rem); max-width: 15ch; line-height: 1; text-wrap: balance; }
+.archive-hero > p { max-width: 29rem; }
+.featured-project { gap: 3rem clamp(3rem, 9vw, 9rem); }
+.featured-project::after { height: 4px; }
+.featured-heading h2 { max-width: 10ch; font-size: clamp(3.5rem, 5.5vw, 5.5rem); line-height: 1; }
+.featured-facts, .case-facts { gap: clamp(2.5rem, 7vw, 7rem); }
+.featured-facts span, .case-facts span { margin-top: .2rem; }
+.archive-section, .decision-index { padding-top: clamp(5rem, 8vw, 8rem); padding-bottom: clamp(5rem, 8vw, 8rem); }
+.archive-heading, .decision-index > h2 { margin-bottom: clamp(2.5rem, 4vw, 4rem); }
+.archive-row { gap: 10%; padding: clamp(2rem, 3vw, 3rem) 0; }
+.archive-row h3, .decision-entry h3 { text-wrap: balance; }
+.archive-stage, .archive-role, .section-label, .case-overline, .decision-domain { letter-spacing: .08em; }
+.case-hero h1 { font-size: clamp(4rem, 7vw, 6rem); line-height: .99; text-wrap: balance; }
+.case-hero-grid, .decision-hero-grid { gap: clamp(3rem, 9vw, 9rem); }
+.case-deck, .decision-deck { max-width: 35rem; }
+.case-facts { margin-top: clamp(3rem, 5vw, 5rem); }
+.reading-layout { grid-template-columns: minmax(12rem, .65fr) minmax(0, 1.3fr); gap: clamp(3rem, 10vw, 10rem); padding-left: var(--page-gutter); padding-right: var(--page-gutter); }
+.reading-aside { max-width: 19rem; }
+.reading-aside strong { max-width: 17ch; }
+.prose { max-width: 65ch; font-size: 1.15rem; line-height: 1.75; }
+.prose h2 { max-width: 22ch; text-wrap: balance; margin-top: 3.5rem; }
+.prose h2:not(:first-child) { border-top: 1px solid var(--rule); padding-top: 2rem; }
+.related-section h2, .related-project h2, .editorial-close h2 { text-wrap: balance; }
+.related-project { border-bottom: 1px solid #cbbcaf; }
+.editorial-close { gap: 2rem; }
+.editorial-close h2 { max-width: 19ch; }
+.contact select:hover, .contact textarea:hover { border-color: var(--ink); }
+
+@media (max-width: 850px) {
+  .archive-hero, .case-hero-grid, .decision-hero-grid, .reading-layout { grid-template-columns: 1fr; gap: 2.5rem; }
+  .archive-hero h1, .decision-hero h1 { font-size: clamp(3.25rem, 8vw, 5.5rem); }
+  .case-hero h1 { font-size: clamp(3.75rem, 9vw, 5.5rem); }
+  .reading-aside { max-width: none; }
+  .reading-aside strong, .decision-reading .reading-aside strong { max-width: 25ch; }
+  .prose { max-width: 65ch; }
+}
+@media (max-width: 700px) {
+  .site-header nav { overflow: visible; flex-wrap: wrap; justify-content: space-between; gap: .1rem .75rem; padding-bottom: .65rem; font-size: .93rem; }
+  .site-header nav a { padding: .35rem 0; }
+  .site-header nav a[aria-current="page"] { text-underline-offset: .3em; }
+  .section { padding-top: 4.5rem; padding-bottom: 4.5rem; }
+  .hero-copy { padding-bottom: 2.5rem; }
+  .hero h1 { text-wrap: balance; }
+  .archive-hero { padding-top: 3rem; padding-bottom: 3.75rem; gap: 1.75rem; }
+  .archive-hero h1, .decision-hero h1 { font-size: clamp(3rem, 11vw, 4.25rem); }
+  .back-link { margin-bottom: 2.25rem; }
+  .featured-project { padding: 2.25rem 1.5rem; }
+  .featured-heading h2 { max-width: 11ch; font-size: clamp(3.1rem, 11vw, 4rem); }
+  .featured-facts, .case-facts { gap: 1.5rem 2rem; }
+  .featured-facts strong, .case-facts strong { font-size: 2rem; }
+  .archive-section, .decision-index { padding-top: 4.5rem; padding-bottom: 4.5rem; }
+  .archive-heading { gap: 1rem; }
+  .archive-heading h2, .decision-index > h2 { font-size: clamp(2.6rem, 9vw, 3.5rem); }
+  .archive-row h3 { font-size: clamp(2.35rem, 8vw, 3.2rem); }
+  .case-hero, .decision-hero { padding-top: 2.5rem; }
+  .decision-hero { padding-bottom: 4rem; }
+  .case-hero h1 { font-size: clamp(3.5rem, 12vw, 4.5rem); }
+  .case-facts { margin-top: 3rem; padding: 1.5rem 0; }
+  .reading-layout { padding: 4rem var(--page-gutter); gap: 2.75rem; }
+  .prose { font-size: 1.05rem; line-height: 1.72; }
+  .prose h2 { font-size: clamp(2rem, 7.5vw, 2.7rem); margin-top: 3rem; }
+  .prose h2:not(:first-child) { padding-top: 1.5rem; }
+  .decision-entry h3 { font-size: clamp(2.5rem, 9vw, 3.5rem); }
+  .editorial-close, .related-section, .related-project { padding-top: 4rem; padding-bottom: 4rem; }
+  .editorial-close h2 { font-size: clamp(2.5rem, 9vw, 3.5rem); }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0s !important; scroll-behavior: auto !important; }
+}

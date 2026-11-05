@@ -1,0 +1,14 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Button from '../../components/Button.astro';
+import CapabilityTags from '../../components/CapabilityTags.astro';
+export async function getStaticPaths() {
+  const projects = await getCollection('projects', ({ data }) => data.kind === 'deep');
+  return projects.map(project => ({ params: { slug: project.id }, props: { project } }));
+}
+const { project } = Astro.props;
+const { Content } = await render(project);
+const decisions = (await getCollection('decisions')).filter(decision => decision.data.projectIds.includes(project.id));
+---
+<BaseLayout title={`${project.data.title} · Trabajo · Luis Pozo`} description={project.data.summary} current="work"><main class="editorial-page"><article><header class="case-hero"><a href="/work/" class="back-link">← Volver al trabajo</a><div class="case-hero-grid"><div><p class="case-overline">{project.data.client && `${project.data.client} · `}{project.data.stage}</p><h1>{project.data.title}</h1><p class="case-deck">{project.data.summary}</p><CapabilityTags tags={project.data.capabilities} /></div><aside class="case-brief"><span>Mi papel</span><p>{project.data.role}</p>{project.data.context && <><span>Contexto</span><p>{project.data.context}</p></>}</aside></div><div class="case-facts">{project.data.facts?.map(fact => <p><strong>{fact.value}</strong><span>{fact.label}</span></p>)}</div></header><div class="reading-layout"><aside class="reading-aside"><span>Trabajo seleccionado</span><strong>Producto, arquitectura y equipo en evolución.</strong></aside><div class="prose"><Content /></div></div></article>{decisions.map(decision => <section class="related-section"><div><p class="section-label">Una decisión en profundidad</p><h2>{decision.data.title}</h2></div><div><p>{decision.data.summary}</p><a class="editorial-link light-link" href={`/decisions/${decision.id}/`}>Leer la decisión <span aria-hidden="true">→</span></a></div></section>)}<section class="editorial-close"><h2>¿Una decisión técnica está frenando tu siguiente etapa?</h2><Button href="/#contacto" variant="editorial">Hablemos</Button></section></main></BaseLayout>

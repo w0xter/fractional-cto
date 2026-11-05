@@ -30,3 +30,12 @@ plugins/impeccable-live.client.ts
 app/plugins/impeccable-live.client.ts
 src/plugins/impeccable-live.client.ts
 # impeccable-live-ignore-end
+
+# Local dependencies, generated output and internal research
+node_modules/
+dist/
+.astro/
+docs/internal/
+.DS_Store
+.playwright-mcp/
+.impeccable/review/astro-*.png

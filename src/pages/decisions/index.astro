@@ -1,0 +1,9 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Button from '../../components/Button.astro';
+const decisions = (await getCollection('decisions')).sort((a, b) => a.data.order - b.data.order);
+const projects = await getCollection('projects');
+const clientFor = (ids: string[]) => projects.find(project => ids.includes(project.id))?.data.client;
+---
+<BaseLayout title="Decisiones · Luis Pozo" description="Decisiones de producto, arquitectura e ingeniería explicadas desde su contexto." current="decisions"><main class="editorial-page"><section class="archive-hero decision-archive-hero"><div><a href="/" class="back-link">← Inicio</a><h1>Decidir también<br /><em>es construir.</em></h1></div><p>La tecnología cobra sentido en las decisiones que permite tomar. Aquí comparto algunas de las preguntas, equilibrios y aprendizajes detrás del trabajo.</p></section><section class="decision-index"><h2>Decisiones y contexto</h2>{decisions.map(decision => <article class="decision-entry"><p class="decision-domain">{decision.data.domain}{clientFor(decision.data.projectIds) && ` · ${clientFor(decision.data.projectIds)}`}</p><div><h3><a href={`/decisions/${decision.id}/`}>{decision.data.title}</a></h3><p>{decision.data.summary}</p><a class="editorial-link" href={`/decisions/${decision.id}/`}>Leer la decisión <span aria-hidden="true">→</span></a></div></article>)}</section><section class="editorial-close"><h2>Una buena decisión empieza por entender el contexto.</h2><Button href="/#contacto" variant="editorial">Hablemos</Button></section></main></BaseLayout>

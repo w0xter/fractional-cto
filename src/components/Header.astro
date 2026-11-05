@@ -1,0 +1,4 @@
+---
+const { current = '' } = Astro.props;
+---
+<header class="site-header"><a class="brand" href="/"><strong>Luis Pozo</strong><span>Fractional CTO<br>para startups</span></a><nav aria-label="Navegación principal"><a href="/" aria-current={current === 'home' ? 'page' : undefined}>Inicio</a><a href="/work/" aria-current={current === 'work' ? 'page' : undefined}>Trabajo</a><a href="/decisions/" aria-current={current === 'decisions' ? 'page' : undefined}>Decisiones</a><a href="/#servicios">Servicios</a><a href="/#sobre-mi">Enfoque</a></nav><a class="header-cta" href="/#contacto">Solicitar una conversación</a></header>

@@ -1,0 +1,5 @@
+---
+interface Props { tags: string[]; }
+const { tags } = Astro.props;
+---
+<ul class="capabilities editorial-tags" aria-label="Áreas de trabajo">{tags.map(tag => <li>{tag}</li>)}</ul>
